@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My sorting VISUALIZER</title>
+  <link rel="stylesheet" href="jsstlye.css" />
+</head>
+
+<body>
+  <header>
+    <h1>SORTING VISUALIZER</h1>
+    <nav class="nav-bar flex">
+      <div class="newarray">
+        <button class="primary-btn new-array-btn new-array">New Array</button>
+        <button class="pause ">PAUSE</button>
+      </div>
+
+      <div class="actions flex">
+        <span id="size">Size
+          <input id="arr_sz" type="range" min="5" max="90" step="1" value="60" />
+        </span>
+        <span id="speed">Speed
+          <input id="speed_input" type="range" min="20" max="300" stepDown="10" value="60" />
+        </span>
+      </div>
+
+      <div class="sortings-methods">
+          <button class="primary-btn sorting-btn bubbleSort">  Bubble Sort   </button>
+          <button class="primary-btn sorting-btn selectionSort">  Selection Sort</button>
+          <button class="primary-btn sorting-btn insertionSort">Insertion Sort</button>
+          <button class="primary-btn sorting-btn quickSort">Quick Sort</button>
+          <button class="primary-btn sorting-btn mergeSort">Merge Sort</button>
+          
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="main-cont flex">
+
+    <!-- <div class="pause-resume">
+       <button class="pause ">PAUSE</button>
+    </div> -->
+
+     <div id="bars" class="flex-container">
+      <!-- <div class="flex-item"></div>
+          <div class="flex-item"></div> -->
+    </div>
+    
+
+
+  </div>
+
+
+
+  
+
+  </div>
+
+  <script src="script.js"></script>
+  <script src="sortingalogs/bubble.js"></script>
+  <script src="sortingalogs/selection.js"></script>
+  <script src="sortingalogs/insertion.js"></script>
+  <script src="sortingalogs/quicksort.js"></script>
+  <script src="sortingalogs/merge.js"></script>
+</body>
+
+</html>

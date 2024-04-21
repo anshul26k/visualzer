@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #243441;
+            color: #333;
+        }
+        .navbar {
+            background-color: #857f82;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+        }
+        .nav-links {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .nav-links li {
+            margin-right: 20px;
+        }
+        .nav-links li a {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s ease;
+        }
+        .nav-links li a:hover {
+            color: #ffd700;
+        }
+        .container {
+            max-width: 900px;
+            margin: 100px auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .card {
+            flex: 0 0 40%;
+            justify-content: center;
+            align-items: center;
+            background-color: #a8bed3;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .card h2 {
+            margin-top: 0;
+        }
+        .card a {
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+            padding: 12px 40%;
+            border-radius: 5px;
+            background-color: #482675;
+            transition: background-color 0.3s ease;
+        }
+        .card a:hover {
+            background-color: #888;
+        }
+        .logo-img{
+            height: 3rem;
+            width: 10rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img class="logo-img" src="logo_f.jpg" alt="" srcset="">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h2>Searching Algorithm</h2>
+            <!-- <p>Description of Searching Algorithm...</p> -->
+            <a href="seaching.html">Explore</a>
+        </div>
+        <div class="card">
+            <h2>Sorting Algorithm</h2>
+            <!-- <p>Description of Sorting Algorithm...</p> -->
+            <a href="sorting.html">Explore</a>
+        </div>
+    </div>
+</body>
+</html>
